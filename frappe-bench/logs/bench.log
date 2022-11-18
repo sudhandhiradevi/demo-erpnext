@@ -1,0 +1,60 @@
+2022-11-18 13:38:53,801 DEBUG cd /home/e-orchids/frappe-bench && /usr/bin/virtualenv --quiet env -p python3
+2022-11-18 13:39:05,769 DEBUG cd /home/e-orchids/frappe-bench && /home/e-orchids/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-11-18 13:39:15,028 LOG Getting frappe
+2022-11-18 13:39:15,028 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2022-11-18 13:39:39,508 LOG Installing frappe
+2022-11-18 13:39:39,509 DEBUG cd /home/e-orchids/frappe-bench && /home/e-orchids/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/e-orchids/frappe-bench/apps/frappe 
+2022-11-18 13:41:44,701 DEBUG cd /home/e-orchids/frappe-bench/apps/frappe && yarn install
+2022-11-18 13:42:56,958 DEBUG cd frappe-bench && bench build
+2022-11-18 13:42:57,284 INFO /usr/local/bin/bench build
+2022-11-18 13:43:22,820 LOG setting up backups
+2022-11-18 13:43:22,901 LOG backups were set up
+2022-11-18 13:43:22,902 INFO Bench frappe-bench initialized
+2022-11-18 13:43:37,419 INFO /usr/local/bin/bench start
+2022-11-18 13:43:40,443 INFO /usr/local/bin/bench worker --queue default
+2022-11-18 13:43:40,457 INFO /usr/local/bin/bench schedule
+2022-11-18 13:43:40,493 INFO /usr/local/bin/bench serve --port 8000
+2022-11-18 13:43:40,563 INFO /usr/local/bin/bench worker --queue short
+2022-11-18 13:43:40,585 INFO /usr/local/bin/bench watch
+2022-11-18 13:43:40,607 INFO /usr/local/bin/bench worker --queue long
+2022-11-18 13:44:39,216 INFO /usr/local/bin/bench new-site erp-demo1.com
+2022-11-18 13:52:12,866 INFO /usr/local/bin/bench use erp-demo1.com
+2022-11-18 13:52:29,297 INFO /usr/local/bin/bench get-app payments
+2022-11-18 13:52:36,409 LOG Getting payments
+2022-11-18 13:52:36,409 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2022-11-18 13:52:38,957 LOG Installing payments
+2022-11-18 13:52:38,958 DEBUG cd /home/e-orchids/frappe-bench && /home/e-orchids/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/e-orchids/frappe-bench/apps/payments 
+2022-11-18 13:52:47,273 DEBUG bench build --app payments
+2022-11-18 13:52:47,647 INFO /usr/local/bin/bench build --app payments
+2022-11-18 13:53:20,806 INFO /usr/local/bin/bench get-app erpnext --branch version-14
+2022-11-18 13:53:22,900 LOG Getting erpnext
+2022-11-18 13:53:22,900 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2022-11-18 13:53:41,001 LOG Installing erpnext
+2022-11-18 13:53:41,002 DEBUG cd /home/e-orchids/frappe-bench && /home/e-orchids/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/e-orchids/frappe-bench/apps/erpnext 
+2022-11-18 13:54:03,395 DEBUG cd /home/e-orchids/frappe-bench/apps/erpnext && yarn install
+2022-11-18 13:54:05,980 DEBUG bench build --app erpnext
+2022-11-18 13:54:06,307 INFO /usr/local/bin/bench build --app erpnext
+2022-11-18 13:57:28,485 INFO /usr/local/bin/bench --site erp-demo1.com install-app erpnext
+2022-11-18 14:06:14,922 INFO /usr/local/bin/bench start
+2022-11-18 14:06:17,107 INFO /usr/local/bin/bench serve --port 8000
+2022-11-18 14:06:17,193 INFO /usr/local/bin/bench worker --queue short
+2022-11-18 14:06:17,237 INFO /usr/local/bin/bench worker --queue default
+2022-11-18 14:06:17,242 INFO /usr/local/bin/bench schedule
+2022-11-18 14:06:17,249 INFO /usr/local/bin/bench watch
+2022-11-18 14:06:17,252 INFO /usr/local/bin/bench worker --queue long
+2022-11-18 14:10:39,981 INFO /usr/local/bin/bench set-config developer_mode 1
+2022-11-18 14:10:47,752 INFO /usr/local/bin/bench clear-cache
+2022-11-18 14:37:33,465 INFO /usr/local/bin/bench get-app hrms
+2022-11-18 14:37:37,373 LOG Getting hrms
+2022-11-18 14:37:37,374 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-11-18 14:37:43,650 LOG Installing hrms
+2022-11-18 14:37:43,651 DEBUG cd /home/e-orchids/frappe-bench && /home/e-orchids/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/e-orchids/frappe-bench/apps/hrms 
+2022-11-18 14:37:50,218 DEBUG bench build --app hrms
+2022-11-18 14:37:50,944 INFO /usr/local/bin/bench build --app hrms
+2022-11-18 15:11:26,636 INFO /usr/local/bin/bench start
+2022-11-18 15:11:30,914 INFO /usr/local/bin/bench watch
+2022-11-18 15:11:31,019 INFO /usr/local/bin/bench worker --queue long
+2022-11-18 15:11:31,037 INFO /usr/local/bin/bench schedule
+2022-11-18 15:11:31,112 INFO /usr/local/bin/bench serve --port 8000
+2022-11-18 15:11:31,248 INFO /usr/local/bin/bench worker --queue short
+2022-11-18 15:11:31,252 INFO /usr/local/bin/bench worker --queue default
