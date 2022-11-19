@@ -72,3 +72,17 @@
 2022-11-19 10:11:55,756 INFO /usr/local/bin/bench watch
 2022-11-19 10:11:55,757 INFO /usr/local/bin/bench schedule
 2022-11-19 10:11:55,802 INFO /usr/local/bin/bench worker --queue default
+2022-11-19 10:31:37,385 INFO /usr/local/bin/bench start
+2022-11-19 10:31:39,450 INFO /usr/local/bin/bench worker --queue short
+2022-11-19 10:31:39,556 INFO /usr/local/bin/bench worker --queue default
+2022-11-19 10:31:39,646 INFO /usr/local/bin/bench watch
+2022-11-19 10:31:39,660 INFO /usr/local/bin/bench schedule
+2022-11-19 10:31:39,664 INFO /usr/local/bin/bench worker --queue long
+2022-11-19 10:31:39,704 INFO /usr/local/bin/bench serve --port 8000
+2022-11-19 10:45:16,658 INFO /usr/local/bin/bench start
+2022-11-19 10:45:19,132 INFO /usr/local/bin/bench worker --queue default
+2022-11-19 10:45:19,166 INFO /usr/local/bin/bench watch
+2022-11-19 10:45:19,216 INFO /usr/local/bin/bench schedule
+2022-11-19 10:45:19,231 INFO /usr/local/bin/bench serve --port 8000
+2022-11-19 10:45:19,251 INFO /usr/local/bin/bench worker --queue long
+2022-11-19 10:45:19,387 INFO /usr/local/bin/bench worker --queue short
