@@ -1772,3 +1772,357 @@
 12:52:03 Warm shut down requested
 12:52:03 Unsubscribing from channel rq:pubsub:dd85c3ddf8a348b5a95af0a788694cc7.eorchids-HP-Laptop-15-da0xxx.19028.home-e-orchids-frappe-bench:default
 12:52:03 Unsubscribing from channel rq:pubsub:8812942943ec45499b7a3cca5b38943a.eorchids-HP-Laptop-15-da0xxx.19003.home-e-orchids-frappe-bench:short
+18:41:26 Worker rq:worker:f8e1f37b91ab41c399a9a9916d6e81ac.eorchids-HP-Laptop-15-da0xxx.5809.home-e-orchids-frappe-bench:default: started, version 1.11.1
+18:41:26 Worker rq:worker:1217c5d6dbd84548a65239b6f1a1e0e7.eorchids-HP-Laptop-15-da0xxx.5816.home-e-orchids-frappe-bench:short: started, version 1.11.1
+18:41:26 Worker rq:worker:350ce4a26df44fb49823341e8965f420.eorchids-HP-Laptop-15-da0xxx.5805.home-e-orchids-frappe-bench:long: started, version 1.11.1
+18:41:26 Subscribing to channel rq:pubsub:f8e1f37b91ab41c399a9a9916d6e81ac.eorchids-HP-Laptop-15-da0xxx.5809.home-e-orchids-frappe-bench:default
+18:41:26 Subscribing to channel rq:pubsub:1217c5d6dbd84548a65239b6f1a1e0e7.eorchids-HP-Laptop-15-da0xxx.5816.home-e-orchids-frappe-bench:short
+18:41:26 Subscribing to channel rq:pubsub:350ce4a26df44fb49823341e8965f420.eorchids-HP-Laptop-15-da0xxx.5805.home-e-orchids-frappe-bench:long
+18:41:26 *** Listening on home-e-orchids-frappe-bench:default...
+18:41:26 *** Listening on home-e-orchids-frappe-bench:short...
+18:41:26 *** Listening on home-e-orchids-frappe-bench:long...
+18:41:26 Cleaning registries for queue: home-e-orchids-frappe-bench:default
+18:41:26 Cleaning registries for queue: home-e-orchids-frappe-bench:long
+18:41:26 Cleaning registries for queue: home-e-orchids-frappe-bench:short
+18:42:29 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.bulk_transaction.doctype.bulk_transaction_log.bulk_tr..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (c8f230fd-9d61-4857-9337-4f199b2682c0)
+18:42:29 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_statement_of_accounts.proces..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (018d8ea7-e721-4304-8441-c081465fce87)
+18:42:31 home-e-orchids-frappe-bench:long: Job OK (c8f230fd-9d61-4857-9337-4f199b2682c0)
+18:42:31 Result is kept for 600 seconds
+18:42:31 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.stock.doctype.repost_item_valuation.repost_item_valua..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (a0f08d0a-16a9-4b34-ab3c-84fd9db3d111)
+18:42:32 home-e-orchids-frappe-bench:long: Job OK (a0f08d0a-16a9-4b34-ab3c-84fd9db3d111)
+18:42:32 Result is kept for 600 seconds
+18:42:32 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.subscription.subscription.process_al..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (90c4c5bf-5231-45af-a73c-0476a189139e)
+18:42:32 home-e-orchids-frappe-bench:default: Job OK (018d8ea7-e721-4304-8441-c081465fce87)
+18:42:32 Result is kept for 600 seconds
+18:42:32 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.buying.doctype.supplier_quotation.supplier_quotation...., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (4bd3d1af-253f-4075-9f54-810b02390a85)
+18:42:33 home-e-orchids-frappe-bench:long: Job OK (90c4c5bf-5231-45af-a73c-0476a189139e)
+18:42:33 Result is kept for 600 seconds
+18:42:33 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.utils.open_leads_opportunities_based_on_todays_ev..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (c0f1d939-cf47-4a1b-b4b7-d159bccd62b2)
+18:42:33 home-e-orchids-frappe-bench:long: Job OK (c0f1d939-cf47-4a1b-b4b7-d159bccd62b2)
+18:42:33 Result is kept for 600 seconds
+18:42:33 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.loan_management.doctype.process_loan_interest_accrual..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (0865d83c-bccd-48fc-a1f2-8ca8dd939e7a)
+18:42:33 home-e-orchids-frappe-bench:default: Job OK (4bd3d1af-253f-4075-9f54-810b02390a85)
+18:42:33 Result is kept for 600 seconds
+18:42:33 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.selling.doctype.quotation.quotation.set_expired_statu..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (da6d1b9c-2d50-48bd-98d4-da38b75a0956)
+18:42:34 home-e-orchids-frappe-bench:long: Job OK (0865d83c-bccd-48fc-a1f2-8ca8dd939e7a)
+18:42:34 Result is kept for 600 seconds
+18:42:34 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.loan_management.doctype.process_loan_security_shortfa..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (6ecd98fc-515e-4bab-b770-7f6778a4d827)
+18:42:34 home-e-orchids-frappe-bench:default: Job OK (da6d1b9c-2d50-48bd-98d4-da38b75a0956)
+18:42:34 Result is kept for 600 seconds
+18:42:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.email_campaign.email_campaign.set_email_c..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (cc1af511-04bd-4431-9072-eb16a76b00a4)
+18:42:34 home-e-orchids-frappe-bench:long: Job OK (6ecd98fc-515e-4bab-b770-7f6778a4d827)
+18:42:34 Result is kept for 600 seconds
+18:42:34 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_tool.bom_update_tool..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (49cb7fa1-72e0-49ea-86fc-99c79d1981c5)
+18:42:35 home-e-orchids-frappe-bench:long: Job OK (49cb7fa1-72e0-49ea-86fc-99c79d1981c5)
+18:42:35 Result is kept for 600 seconds
+18:42:35 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.setup.doctype.email_digest.email_digest.send'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (2669bcd1-1e98-4e47-848a-ebdb9f9c4fc6)
+18:42:35 home-e-orchids-frappe-bench:default: Job OK (cc1af511-04bd-4431-9072-eb16a76b00a4)
+18:42:35 Result is kept for 600 seconds
+18:42:35 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.email_campaign.email_campaign.send_email_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (77c4994e-9b3c-4203-b811-912e8ca83c84)
+18:42:35 home-e-orchids-frappe-bench:long: Job OK (2669bcd1-1e98-4e47-848a-ebdb9f9c4fc6)
+18:42:35 Result is kept for 600 seconds
+18:42:35 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_drive.google_drive.weekly_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (6f7c000d-a858-43d2-a759-c540b57515aa)
+18:42:36 home-e-orchids-frappe-bench:default: Job OK (77c4994e-9b3c-4203-b811-912e8ca83c84)
+18:42:36 Result is kept for 600 seconds
+18:42:36 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.support.doctype.service_level_agreement.service_level..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (e4eb2b2b-0541-473e-9139-e68853efe65b)
+18:42:36 home-e-orchids-frappe-bench:long: Job OK (6f7c000d-a858-43d2-a759-c540b57515aa)
+18:42:36 Result is kept for 600 seconds
+18:42:36 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.social.doctype.energy_point_log.energy_point_log.send_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (efc8da3f-c6a6-4198-a3e5-331c4c3c6bab)
+18:42:37 home-e-orchids-frappe-bench:long: Job OK (efc8da3f-c6a6-4198-a3e5-331c4c3c6bab)
+18:42:37 Result is kept for 600 seconds
+18:42:37 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_weekly_updates'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (6fd87104-8064-457b-9e1e-80057dab099d)
+18:42:37 home-e-orchids-frappe-bench:default: Job OK (e4eb2b2b-0541-473e-9139-e68853efe65b)
+18:42:37 Result is kept for 600 seconds
+18:42:37 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.quality_management.doctype.quality_review.quality_rev..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (b775215d-2c84-4b08-8be4-c7dcb7cb7800)
+18:42:37 home-e-orchids-frappe-bench:default: Job OK (b775215d-2c84-4b08-8be4-c7dcb7cb7800)
+18:42:37 Result is kept for 600 seconds
+18:42:37 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.send_project_status_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (f4cffaa6-5284-4fe0-9988-662e23ef6501)
+18:42:37 home-e-orchids-frappe-bench:long: Job OK (6fd87104-8064-457b-9e1e-80057dab099d)
+18:42:37 Result is kept for 600 seconds
+18:42:37 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.s3_backup_settings.s3_backup_sett..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (6dcf40e5-3703-4914-973f-967e1243682e)
+18:42:38 home-e-orchids-frappe-bench:default: Job OK (f4cffaa6-5284-4fe0-9988-662e23ef6501)
+18:42:38 Result is kept for 600 seconds
+18:42:38 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.update_project_sales..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (1a899cd0-7e96-4d69-b0c5-cfb907a3ae96)
+18:42:38 home-e-orchids-frappe-bench:long: Job OK (6dcf40e5-3703-4914-973f-967e1243682e)
+18:42:38 Result is kept for 600 seconds
+18:42:38 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.dropbox_settings.dropbox_settings..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (c721387f-d019-42c6-9878-e89e416b4112)
+18:42:39 home-e-orchids-frappe-bench:default: Job OK (1a899cd0-7e96-4d69-b0c5-cfb907a3ae96)
+18:42:39 Result is kept for 600 seconds
+18:42:39 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.contract.contract.update_status_for_contr..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (e71b7c0f-2d81-4e49-ae84-af587b69f849)
+18:42:39 home-e-orchids-frappe-bench:long: Job OK (c721387f-d019-42c6-9878-e89e416b4112)
+18:42:39 Result is kept for 600 seconds
+18:42:39 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_drive.google_drive.daily_b..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (2ba0233c-9bd4-45d4-b151-de9b60c44d2b)
+18:42:39 home-e-orchids-frappe-bench:default: Job OK (e71b7c0f-2d81-4e49-ae84-af587b69f849)
+18:42:39 Result is kept for 600 seconds
+18:42:39 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.assets.doctype.asset.asset.make_post_gl_entry'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (13121a66-9fe0-4ae3-a5fd-4c94c8038906)
+18:42:40 home-e-orchids-frappe-bench:long: Job OK (2ba0233c-9bd4-45d4-b151-de9b60c44d2b)
+18:42:40 Result is kept for 600 seconds
+18:42:40 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.auto_email_report.auto_email_report.send..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (10271529-6b12-45f8-82fa-6ef74fee751f)
+18:42:40 home-e-orchids-frappe-bench:default: Job OK (13121a66-9fe0-4ae3-a5fd-4c94c8038906)
+18:42:40 Result is kept for 600 seconds
+18:42:40 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.assets.doctype.asset.asset.update_maintenance_status'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (4fdfde43-7623-49f4-a14c-239674c24b2a)
+18:42:41 home-e-orchids-frappe-bench:long: Job OK (10271529-6b12-45f8-82fa-6ef74fee751f)
+18:42:41 Result is kept for 600 seconds
+18:42:41 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.s3_backup_settings.s3_backup_sett..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (9f392c30-2216-482d-8a33-0c81221abe60)
+18:42:41 home-e-orchids-frappe-bench:default: Job OK (4fdfde43-7623-49f4-a14c-239674c24b2a)
+18:42:41 Result is kept for 600 seconds
+18:42:41 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.setup.doctype.company.company.cache_companies_monthly..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (2d8a2e51-97f0-4331-b46e-4513fc46be68)
+18:42:41 home-e-orchids-frappe-bench:long: Job OK (9f392c30-2216-482d-8a33-0c81221abe60)
+18:42:41 Result is kept for 600 seconds
+18:42:41 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.change_log.check_for_update'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (346f9e3c-9ca9-4a7c-adc4-dd1503e1eb2e)
+18:42:42 home-e-orchids-frappe-bench:default: Job OK (2d8a2e51-97f0-4331-b46e-4513fc46be68)
+18:42:42 Result is kept for 600 seconds
+18:42:42 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.buying.doctype.supplier_scorecard.supplier_scorecard...., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (c4a1e67b-2be6-44c1-8be1-3e3d866c4d1c)
+18:42:42 home-e-orchids-frappe-bench:default: Job OK (c4a1e67b-2be6-44c1-8be1-3e3d866c4d1c)
+18:42:42 Result is kept for 600 seconds
+18:42:42 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.stock.doctype.serial_no.serial_no.update_maintenance_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (0a4139b7-53cf-4caa-9e7a-0008211fac41)
+18:42:43 home-e-orchids-frappe-bench:default: Job OK (0a4139b7-53cf-4caa-9e7a-0008211fac41)
+18:42:43 Result is kept for 600 seconds
+18:42:43 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.assets.doctype.asset.depreciation.post_depreciation_e..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (2be66c05-6c08-49e8-b2e2-10af6ae5eaac)
+18:42:44 home-e-orchids-frappe-bench:default: Job OK (2be66c05-6c08-49e8-b2e2-10af6ae5eaac)
+18:42:44 Result is kept for 600 seconds
+18:42:44 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.task.task.set_tasks_as_overdue'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (b2a72ad0-3728-4a0c-92ac-ac27e798fa72)
+18:42:44 home-e-orchids-frappe-bench:long: Job OK (346f9e3c-9ca9-4a7c-adc4-dd1503e1eb2e)
+18:42:44 Result is kept for 600 seconds
+18:42:44 home-e-orchids-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.dropbox_settings.dropbox_settings..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (bd7e6fdf-bfc0-4ac0-b498-926612d1cded)
+18:42:44 home-e-orchids-frappe-bench:default: Job OK (b2a72ad0-3728-4a0c-92ac-ac27e798fa72)
+18:42:44 Result is kept for 600 seconds
+18:42:44 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.fiscal_year.fiscal_year.auto_create_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (030570a9-4dd0-4787-a99d-a1c409e8071b)
+18:42:44 home-e-orchids-frappe-bench:long: Job OK (bd7e6fdf-bfc0-4ac0-b498-926612d1cded)
+18:42:44 Result is kept for 600 seconds
+18:42:45 home-e-orchids-frappe-bench:default: Job OK (030570a9-4dd0-4787-a99d-a1c409e8071b)
+18:42:45 Result is kept for 600 seconds
+18:42:45 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.controllers.accounts_controller.update_invoice_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (387cc259-6eff-4ad3-8a1c-e8d9323906e5)
+18:42:45 home-e-orchids-frappe-bench:default: Job OK (387cc259-6eff-4ad3-8a1c-e8d9323906e5)
+18:42:45 Result is kept for 600 seconds
+18:42:45 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.opportunity.opportunity.auto_close_opport..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (fc8660d6-c7bf-45be-9a6e-06641f61d3c6)
+18:42:46 home-e-orchids-frappe-bench:default: Job OK (fc8660d6-c7bf-45be-9a6e-06641f61d3c6)
+18:42:46 Result is kept for 600 seconds
+18:42:46 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.support.doctype.issue.issue.auto_close_tickets'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (f679433d-d051-4c5c-8c2a-3e06b545e384)
+18:42:46 home-e-orchids-frappe-bench:default: Job OK (f679433d-d051-4c5c-8c2a-3e06b545e384)
+18:42:46 Result is kept for 600 seconds
+18:42:46 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.collect_project_stat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (135dfc8a-1fb5-4879-9445-347e58d78f12)
+18:42:47 home-e-orchids-frappe-bench:default: Job OK (135dfc8a-1fb5-4879-9445-347e58d78f12)
+18:42:47 Result is kept for 600 seconds
+18:42:47 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.hourly_reminder'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (90c1df09-65a3-47c3-9b08-11bcc8e51d5f)
+18:42:48 home-e-orchids-frappe-bench:default: Job OK (90c1df09-65a3-47c3-9b08-11bcc8e51d5f)
+18:42:48 Result is kept for 600 seconds
+18:42:48 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.erpnext_integrations.doctype.plaid_settings.plaid_set..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (efadd7dc-1b53-4a00-8d89-1ab4b9c6515f)
+18:42:48 home-e-orchids-frappe-bench:default: Job OK (efadd7dc-1b53-4a00-8d89-1ab4b9c6515f)
+18:42:48 Result is kept for 600 seconds
+18:42:48 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (da9cb6a1-159c-47ed-83a0-a53e21b6398e)
+18:42:49 home-e-orchids-frappe-bench:default: Job OK (da9cb6a1-159c-47ed-83a0-a53e21b6398e)
+18:42:49 Result is kept for 600 seconds
+18:42:49 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (866db30f-a976-4ad7-8cf0-94ca4fd23b3f)
+18:42:49 home-e-orchids-frappe-bench:default: Job OK (866db30f-a976-4ad7-8cf0-94ca4fd23b3f)
+18:42:49 Result is kept for 600 seconds
+18:42:49 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.stock.reorder_item.reorder_item'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (cae2f9d5-af1f-4e99-ac83-9f93a3b1bfbd)
+18:42:50 home-e-orchids-frappe-bench:default: Job OK (cae2f9d5-af1f-4e99-ac83-9f93a3b1bfbd)
+18:42:50 Result is kept for 600 seconds
+18:42:50 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_doc..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (ba1a69a1-7161-474a-b296-9d7b53000f5e)
+18:42:50 home-e-orchids-frappe-bench:default: Job OK (ba1a69a1-7161-474a-b296-9d7b53000f5e)
+18:42:50 Result is kept for 600 seconds
+18:42:50 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.doctype.video.video.update_youtube_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (a8f337fb-e851-4ef7-aeb3-2ebe4238cf98)
+18:42:51 home-e-orchids-frappe-bench:default: Job OK (a8f337fb-e851-4ef7-aeb3-2ebe4238cf98)
+18:42:51 Result is kept for 600 seconds
+18:42:51 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (3bd84881-dce1-44cf-8c0b-f20976e1d692)
+18:42:52 home-e-orchids-frappe-bench:default: Job OK (3bd84881-dce1-44cf-8c0b-f20976e1d692)
+18:42:52 Result is kept for 600 seconds
+18:42:52 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (f45f6ab5-9306-4fc0-9019-bbc1fbb360a6)
+18:42:52 home-e-orchids-frappe-bench:default: Job OK (f45f6ab5-9306-4fc0-9019-bbc1fbb360a6)
+18:42:52 Result is kept for 600 seconds
+18:42:52 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.subscription.enable_manage_subscription'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (d9ffc295-2289-49fc-a08a-5ce235207670)
+18:42:53 home-e-orchids-frappe-bench:default: Job OK (d9ffc295-2289-49fc-a08a-5ce235207670)
+18:42:53 Result is kept for 600 seconds
+18:42:53 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.log_settings.log_settings.run_log_clean_u..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (f0c60fca-c984-4fdf-a4a9-97f4cf4cc336)
+18:42:54 home-e-orchids-frappe-bench:default: Job OK (f0c60fca-c984-4fdf-a4a9-97f4cf4cc336)
+18:42:54 Result is kept for 600 seconds
+18:42:54 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.delete_ex..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (ad52c2f9-9280-41dd-bd07-c5a7b6e2aec9)
+18:42:55 home-e-orchids-frappe-bench:default: Job OK (ad52c2f9-9280-41dd-bd07-c5a7b6e2aec9)
+18:42:55 Result is kept for 600 seconds
+18:42:55 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.unhandled_email.unhandled_email.remove_o..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (dd6d33a8-80ef-493d-aabb-2574001a7112)
+18:42:55 home-e-orchids-frappe-bench:default: Job OK (dd6d33a8-80ef-493d-aabb-2574001a7112)
+18:42:55 Result is kept for 600 seconds
+18:42:55 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.auto_repeat.auto_repeat.set_auto_re..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (88ce7b2e-8ca8-4996-a87d-ac7100061034)
+18:42:56 home-e-orchids-frappe-bench:default: Job OK (88ce7b2e-8ca8-4996-a87d-ac7100061034)
+18:42:56 Result is kept for 600 seconds
+18:42:56 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.auto_repeat.auto_repeat.make_auto_r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (f61c8a26-264c-42d0-b778-c37fe0022fd2)
+18:42:56 home-e-orchids-frappe-bench:default: Job OK (f61c8a26-264c-42d0-b778-c37fe0022fd2)
+18:42:56 Result is kept for 600 seconds
+18:42:56 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_contacts.google_contacts.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (9e5d0cb9-c936-4f0e-a2e0-52e9d3033bcb)
+18:42:57 home-e-orchids-frappe-bench:default: Job OK (9e5d0cb9-c936-4f0e-a2e0-52e9d3033bcb)
+18:42:57 Result is kept for 600 seconds
+18:42:57 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.social.doctype.energy_point_settings.energy_point_sett..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (d3ddc2e4-1f48-4145-84e7-b7eae23a0f5b)
+18:42:57 home-e-orchids-frappe-bench:default: Job OK (d3ddc2e4-1f48-4145-84e7-b7eae23a0f5b)
+18:42:57 Result is kept for 600 seconds
+18:42:57 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_daily_updates'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (211f99dd-d889-42d0-986d-cf4aa4d05299)
+18:42:58 home-e-orchids-frappe-bench:default: Job OK (211f99dd-d889-42d0-986d-cf4aa4d05299)
+18:42:58 Result is kept for 600 seconds
+18:42:58 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (a38bb0ce-2852-419e-aa00-694b01bec3b9)
+18:42:58 home-e-orchids-frappe-bench:default: Job OK (a38bb0ce-2852-419e-aa00-694b01bec3b9)
+18:42:58 Result is kept for 600 seconds
+18:42:58 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_daily_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (0b33e6ea-0d01-430b-aa46-d2ca28758a34)
+18:42:59 home-e-orchids-frappe-bench:default: Job OK (0b33e6ea-0d01-430b-aa46-d2ca28758a34)
+18:42:59 Result is kept for 600 seconds
+18:42:59 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.sessions.clear_expired_sessions'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (a04314d9-635b-4519-9b3e-c2a58a253281)
+18:42:59 home-e-orchids-frappe-bench:default: Job OK (a04314d9-635b-4519-9b3e-c2a58a253281)
+18:42:59 Result is kept for 600 seconds
+18:42:59 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.doctype.event.event.send_event_digest'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (522e41d6-a873-4cc6-959c-93325bd80a6e)
+18:43:00 home-e-orchids-frappe-bench:default: Job OK (522e41d6-a873-4cc6-959c-93325bd80a6e)
+18:43:00 Result is kept for 600 seconds
+18:43:00 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.notifications.clear_notifications'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (b4eb5a54-3fab-454d-84d9-1e897ee0242f)
+18:43:00 home-e-orchids-frappe-bench:default: Job OK (b4eb5a54-3fab-454d-84d9-1e897ee0242f)
+18:43:00 Result is kept for 600 seconds
+18:43:00 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.set_expiry_for_email_queue'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (6070ad54-8b5f-4eed-9c13-44503e27a37a)
+18:43:00 home-e-orchids-frappe-bench:default: Job OK (6070ad54-8b5f-4eed-9c13-44503e27a37a)
+18:43:00 Result is kept for 600 seconds
+18:43:00 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (4d66a772-6738-4498-a1a7-d7da915ac8ae)
+18:43:01 home-e-orchids-frappe-bench:default: Job OK (4d66a772-6738-4498-a1a7-d7da915ac8ae)
+18:43:01 Result is kept for 600 seconds
+18:43:01 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (d915fedd-e08a-41fc-b727-5760576f82cf)
+18:43:02 home-e-orchids-frappe-bench:default: Job OK (d915fedd-e08a-41fc-b727-5760576f82cf)
+18:43:02 Result is kept for 600 seconds
+18:43:02 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (394dbe49-8af4-4ca8-9f3d-7e3374e229f4)
+18:43:02 home-e-orchids-frappe-bench:default: Job OK (394dbe49-8af4-4ca8-9f3d-7e3374e229f4)
+18:43:02 Result is kept for 600 seconds
+18:43:02 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (5f42781a-ebc0-4f85-8d1c-3bb7e5920897)
+18:43:03 home-e-orchids-frappe-bench:default: Job OK (5f42781a-ebc0-4f85-8d1c-3bb7e5920897)
+18:43:03 Result is kept for 600 seconds
+18:43:03 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (b5d498f5-c86b-4807-8684-9ff121a178ad)
+18:43:03 home-e-orchids-frappe-bench:default: Job OK (b5d498f5-c86b-4807-8684-9ff121a178ad)
+18:43:03 Result is kept for 600 seconds
+18:43:03 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (e1ea298f-c0c4-4078-8376-388563a201fe)
+18:43:03 home-e-orchids-frappe-bench:default: Job OK (e1ea298f-c0c4-4078-8376-388563a201fe)
+18:43:03 Result is kept for 600 seconds
+18:43:03 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.error.collect_error_snapshots'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (c839f8d0-c343-4527-bb52-607ad4264f10)
+18:43:04 home-e-orchids-frappe-bench:default: Job OK (c839f8d0-c343-4527-bb52-607ad4264f10)
+18:43:04 Result is kept for 600 seconds
+18:43:04 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (bb9717fa-9f78-46fc-9bc5-75e6c1720dc3)
+18:43:04 home-e-orchids-frappe-bench:default: Job OK (bb9717fa-9f78-46fc-9bc5-75e6c1720dc3)
+18:43:04 Result is kept for 600 seconds
+18:43:04 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (77547715-c3ad-47f5-bdfb-5e8216c0d348)
+18:43:05 home-e-orchids-frappe-bench:default: Job OK (77547715-c3ad-47f5-bdfb-5e8216c0d348)
+18:43:05 Result is kept for 600 seconds
+18:43:05 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (29336b5c-3a44-4a45-9e15-aec7c9769882)
+18:43:05 home-e-orchids-frappe-bench:default: Job OK (29336b5c-3a44-4a45-9e15-aec7c9769882)
+18:43:05 Result is kept for 600 seconds
+18:43:05 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (ef4be480-4639-4a69-a826-09918d43e699)
+18:43:05 home-e-orchids-frappe-bench:default: Job OK (ef4be480-4639-4a69-a826-09918d43e699)
+18:43:05 Result is kept for 600 seconds
+18:43:05 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (879b1d45-b9a8-4d24-9afb-699725b18aa8)
+18:43:06 home-e-orchids-frappe-bench:default: Job OK (879b1d45-b9a8-4d24-9afb-699725b18aa8)
+18:43:06 Result is kept for 600 seconds
+18:43:06 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (d30c318c-1cce-40e9-9355-8119c68a5f81)
+18:43:07 home-e-orchids-frappe-bench:default: Job OK (d30c318c-1cce-40e9-9355-8119c68a5f81)
+18:43:07 Result is kept for 600 seconds
+18:43:07 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (beb09844-a542-4535-8e12-fd27133e5e50)
+18:43:07 home-e-orchids-frappe-bench:default: Job OK (beb09844-a542-4535-8e12-fd27133e5e50)
+18:43:07 Result is kept for 600 seconds
+18:43:07 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (0d970a82-2392-4e65-81d2-facb02e780a8)
+18:43:08 home-e-orchids-frappe-bench:default: Job OK (0d970a82-2392-4e65-81d2-facb02e780a8)
+18:43:08 Result is kept for 600 seconds
+18:43:08 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (f659169a-3088-4e46-b1b4-d6bd27b53eea)
+18:43:08 home-e-orchids-frappe-bench:default: Job OK (f659169a-3088-4e46-b1b4-d6bd27b53eea)
+18:43:08 Result is kept for 600 seconds
+18:43:08 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (87fa3b2e-dd06-4855-ab9d-2fc58d111790)
+18:43:09 home-e-orchids-frappe-bench:default: Job OK (87fa3b2e-dd06-4855-ab9d-2fc58d111790)
+18:43:09 Result is kept for 600 seconds
+18:43:09 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', kwargs={'data': []}, method='frappe.automation.doctype.auto_repeat.auto_repeat.create_repeated_entries', site='erp-demo1.com', user='Administrator') (0c998bfd-d947-4baf-b258-aa21154bd533)
+18:43:09 home-e-orchids-frappe-bench:default: Job OK (0c998bfd-d947-4baf-b258-aa21154bd533)
+18:43:09 Result is kept for 600 seconds
+18:44:31 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (5216bc3d-fcc3-4654-9be5-1341a31778d9)
+18:44:32 home-e-orchids-frappe-bench:default: Job OK (5216bc3d-fcc3-4654-9be5-1341a31778d9)
+18:44:32 Result is kept for 600 seconds
+18:44:32 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (41c779cf-a3fa-45c5-aff0-5089652b207e)
+18:44:32 home-e-orchids-frappe-bench:default: Job OK (41c779cf-a3fa-45c5-aff0-5089652b207e)
+18:44:32 Result is kept for 600 seconds
+18:44:32 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (e5fd6a22-eb6c-4f43-a9fc-cf661e083787)
+18:44:33 home-e-orchids-frappe-bench:default: Job OK (e5fd6a22-eb6c-4f43-a9fc-cf661e083787)
+18:44:33 Result is kept for 600 seconds
+18:44:33 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (95bc9f3a-8f56-4680-b32a-d0554b22bd8d)
+18:44:33 home-e-orchids-frappe-bench:default: Job OK (95bc9f3a-8f56-4680-b32a-d0554b22bd8d)
+18:44:33 Result is kept for 600 seconds
+18:44:33 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (de949333-08e0-400a-bc8f-425cd391f082)
+18:44:33 home-e-orchids-frappe-bench:default: Job OK (de949333-08e0-400a-bc8f-425cd391f082)
+18:44:33 Result is kept for 600 seconds
+18:44:33 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (b59201b4-8e82-492c-82b7-6538583de8ee)
+18:44:34 home-e-orchids-frappe-bench:default: Job OK (b59201b4-8e82-492c-82b7-6538583de8ee)
+18:44:34 Result is kept for 600 seconds
+18:44:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (2f135e2e-b0c6-4e0d-afd8-2d98402e4812)
+18:44:34 home-e-orchids-frappe-bench:default: Job OK (2f135e2e-b0c6-4e0d-afd8-2d98402e4812)
+18:44:34 Result is kept for 600 seconds
+18:44:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (0dd7d7d5-2736-49cf-8050-3135628f5435)
+18:44:35 home-e-orchids-frappe-bench:default: Job OK (0dd7d7d5-2736-49cf-8050-3135628f5435)
+18:44:35 Result is kept for 600 seconds
+18:45:32 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (f4038914-2c36-41b8-8cfb-048e205f682d)
+18:45:32 home-e-orchids-frappe-bench:default: Job OK (f4038914-2c36-41b8-8cfb-048e205f682d)
+18:45:32 Result is kept for 600 seconds
+18:45:32 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (62bf38e7-1333-4992-973d-a84510188291)
+18:45:32 home-e-orchids-frappe-bench:default: Job OK (62bf38e7-1333-4992-973d-a84510188291)
+18:45:32 Result is kept for 600 seconds
+18:45:32 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (168db767-0fb3-4c1e-a284-6566bd362653)
+18:45:33 home-e-orchids-frappe-bench:default: Job OK (168db767-0fb3-4c1e-a284-6566bd362653)
+18:45:33 Result is kept for 600 seconds
+18:45:33 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (b19504ca-b957-4ac2-9262-f59c4baa28a3)
+18:45:33 home-e-orchids-frappe-bench:default: Job OK (b19504ca-b957-4ac2-9262-f59c4baa28a3)
+18:45:33 Result is kept for 600 seconds
+18:48:32 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (bef8db35-4f93-4b55-a564-581413b3a0bb)
+18:48:33 home-e-orchids-frappe-bench:default: Job OK (bef8db35-4f93-4b55-a564-581413b3a0bb)
+18:48:33 Result is kept for 600 seconds
+18:48:33 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (0ba2abdb-bc9b-4f5e-905f-e49a57c1d041)
+18:48:33 home-e-orchids-frappe-bench:default: Job OK (0ba2abdb-bc9b-4f5e-905f-e49a57c1d041)
+18:48:33 Result is kept for 600 seconds
+18:48:33 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (4d7899fe-aa7c-4538-89ce-897dab20122b)
+18:48:34 home-e-orchids-frappe-bench:default: Job OK (4d7899fe-aa7c-4538-89ce-897dab20122b)
+18:48:34 Result is kept for 600 seconds
+18:48:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (ab2d6f98-fe94-48f3-9206-9a362b279f7f)
+18:48:34 home-e-orchids-frappe-bench:default: Job OK (ab2d6f98-fe94-48f3-9206-9a362b279f7f)
+18:48:34 Result is kept for 600 seconds
+18:48:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (02869a33-59e1-46c4-bd74-ae5a17e0913a)
+18:48:34 home-e-orchids-frappe-bench:default: Job OK (02869a33-59e1-46c4-bd74-ae5a17e0913a)
+18:48:34 Result is kept for 600 seconds
+18:48:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (cac30475-2e86-4b75-840f-2c90db16862e)
+18:48:35 home-e-orchids-frappe-bench:default: Job OK (cac30475-2e86-4b75-840f-2c90db16862e)
+18:48:35 Result is kept for 600 seconds
+18:48:35 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (92f0438e-bafe-452a-ae65-060aa82e5d12)
+18:48:35 home-e-orchids-frappe-bench:default: Job OK (92f0438e-bafe-452a-ae65-060aa82e5d12)
+18:48:35 Result is kept for 600 seconds
+18:48:35 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (1bc5ed19-5155-4258-ac27-03d162a556c4)
+18:48:36 home-e-orchids-frappe-bench:default: Job OK (1bc5ed19-5155-4258-ac27-03d162a556c4)
+18:48:36 Result is kept for 600 seconds
+18:50:33 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (12bf5b10-afdf-4bda-8caf-2df977a394ce)
+18:50:33 home-e-orchids-frappe-bench:default: Job OK (12bf5b10-afdf-4bda-8caf-2df977a394ce)
+18:50:33 Result is kept for 600 seconds
+18:52:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.crm.doctype.social_media_post.social_media_post.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (6628397e-b69e-4370-87e7-73222fe305e3)
+18:52:34 home-e-orchids-frappe-bench:default: Job OK (6628397e-b69e-4370-87e7-73222fe305e3)
+18:52:34 Result is kept for 600 seconds
+18:52:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (29e08a3a-6bb1-4a51-a722-09c35c68c765)
+18:52:34 home-e-orchids-frappe-bench:default: Job OK (29e08a3a-6bb1-4a51-a722-09c35c68c765)
+18:52:34 Result is kept for 600 seconds
+18:52:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'payments.payment_gateways.doctype.razorpay_settings.razorpay_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (857c60f7-f6d4-43fd-80fb-ecfb09722a45)
+18:52:35 home-e-orchids-frappe-bench:default: Job OK (857c60f7-f6d4-43fd-80fb-ecfb09722a45)
+18:52:35 Result is kept for 600 seconds
+18:52:35 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (195d0205-6c8e-41c2-8501-33c483bccc95)
+18:52:35 home-e-orchids-frappe-bench:default: Job OK (195d0205-6c8e-41c2-8501-33c483bccc95)
+18:52:35 Result is kept for 600 seconds
+18:52:35 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (1bed3134-ce24-476c-965b-fd3bb60d95f4)
+18:52:35 home-e-orchids-frappe-bench:default: Job OK (1bed3134-ce24-476c-965b-fd3bb60d95f4)
+18:52:35 Result is kept for 600 seconds
+18:52:35 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (bed25f28-6985-4282-ae85-4e63843fed05)
+18:52:36 home-e-orchids-frappe-bench:default: Job OK (bed25f28-6985-4282-ae85-4e63843fed05)
+18:52:36 Result is kept for 600 seconds
+18:52:36 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (6d3d7b16-b000-483d-896b-c3094fe8536d)
+18:52:36 home-e-orchids-frappe-bench:default: Job OK (6d3d7b16-b000-483d-896b-c3094fe8536d)
+18:52:36 Result is kept for 600 seconds
+18:52:36 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (bc3d83e5-4d08-44df-adfd-670c8cee2893)
+18:52:37 home-e-orchids-frappe-bench:default: Job OK (bc3d83e5-4d08-44df-adfd-670c8cee2893)
+18:52:37 Result is kept for 600 seconds
+18:55:34 home-e-orchids-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erp-demo1.com', user='Administrator') (e2d989b3-8ae3-4534-aa4f-c1d8478d9f68)
+18:55:35 home-e-orchids-frappe-bench:default: Job OK (e2d989b3-8ae3-4534-aa4f-c1d8478d9f68)
+18:55:35 Result is kept for 600 seconds
+18:56:31 Warm shut down requested
+18:56:31 Unsubscribing from channel rq:pubsub:1217c5d6dbd84548a65239b6f1a1e0e7.eorchids-HP-Laptop-15-da0xxx.5816.home-e-orchids-frappe-bench:short
+18:56:31 Warm shut down requested
+18:56:31 Warm shut down requested
+18:56:31 Unsubscribing from channel rq:pubsub:f8e1f37b91ab41c399a9a9916d6e81ac.eorchids-HP-Laptop-15-da0xxx.5809.home-e-orchids-frappe-bench:default
+18:56:31 Unsubscribing from channel rq:pubsub:350ce4a26df44fb49823341e8965f420.eorchids-HP-Laptop-15-da0xxx.5805.home-e-orchids-frappe-bench:long
